@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  fastapi:
+    build: .
+    container_name: fastapi
+    expose:
+      - 8080:8080
+    volumes:
+      - .:/home/python/app
