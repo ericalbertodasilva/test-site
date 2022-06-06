@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Roag";
+  font-weight: bold;
+  src: url('../fonts/Roag-Bold.otf') format("opentype");
+}
+
+@font-face {
+  font-family: "Roag";
+  src: url('../fonts/Roag-Regular.otf') format("opentype");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: #86a3b7;
+}
+
+code {
+  font-family: 'Roag',
+    monospace;
+}
+
+.text-introduction {
+  font-family:'Roag';
+  font-weight: 'bold';
+  text-align: center;
+  font-size: 48px;
+  color: #7D5FE1;
+}
+
+.text-introduction-description {
+  font-family:'Roag';
+  font-size: 32px;
+  text-align: center;
+  color: #7D5FE1;
+}
+
+.pillars-h2 {
+  font-family:'Roag';
+  font-size: 32px;
+  text-align: center;
+  color: #7D5FE1;
+}
+
+.pillars-item {
+  text-align: center;
+}
+
+.pillars-text {
+  font-family:'Roag';
+  font-size: 24px;
+  text-align: center;
+  color: #7D5FE1;
+}
+
+.pillars-text-description {
+  font-family:'Roag';
+  font-size: 24px;
+  color: #7D5FE1;
+}
+
+.footer-text {
+  font-family:'Roag';
+  font-size: 18px;
+  color: #7D5FE1;
+}
+.footer {
+  margin-top: 0;
+  background-color: #d0c7ef;
+}
